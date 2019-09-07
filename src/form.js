@@ -7,7 +7,8 @@ export default function (){
     const values = JSON.parse(localStorage.getItem('values'));
     const addNew = () =>{
         setStep(1);
-        localStorage.removeItem('values')
+        localStorage.removeItem('values');
+        console.log("test")
     }
     return(
         <div>
